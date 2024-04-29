@@ -1,0 +1,16 @@
+D:\LoaderBuilderGUI\bin\Debug\net8.0-windows\LoaderBuilderGUI.exe
+D:\LoaderBuilderGUI\bin\Debug\net8.0-windows\LoaderBuilderGUI.deps.json
+D:\LoaderBuilderGUI\bin\Debug\net8.0-windows\LoaderBuilderGUI.runtimeconfig.json
+D:\LoaderBuilderGUI\bin\Debug\net8.0-windows\LoaderBuilderGUI.dll
+D:\LoaderBuilderGUI\bin\Debug\net8.0-windows\LoaderBuilderGUI.pdb
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\LoaderBuilderGUI.Form1.resources
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\LoaderBuilderGUI.csproj.GenerateResource.cache
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\LoaderBuilderGUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\LoaderBuilderGUI.AssemblyInfoInputs.cache
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\LoaderBuilderGUI.AssemblyInfo.cs
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\LoaderBuilderGUI.csproj.CoreCompileInputs.cache
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\LoaderBuilderGUI.dll
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\refint\LoaderBuilderGUI.dll
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\LoaderBuilderGUI.pdb
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\LoaderBuilderGUI.genruntimeconfig.cache
+D:\LoaderBuilderGUI\obj\Debug\net8.0-windows\ref\LoaderBuilderGUI.dll
